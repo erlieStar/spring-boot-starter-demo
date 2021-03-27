@@ -1,4 +1,4 @@
-package com.st.teststarter;
+package com.javashitang.teststarter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

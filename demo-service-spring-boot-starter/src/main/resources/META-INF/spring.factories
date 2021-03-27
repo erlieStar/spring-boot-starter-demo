@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.st.demoservice.DemoServiceAutoConfiguration
+com.javashitang.demoservice.DemoServiceAutoConfiguration

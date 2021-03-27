@@ -1,22 +1,16 @@
-package com.st.demoservice;
+package com.javashitang.demoservice;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * @Author: lilimin
- * @Date: 2019/7/21 16:43
+ * @Date: 2019/7/21 16:37
  */
-public class DemoService {
+@ConfigurationProperties(prefix = "demo.service")
+public class DemoServicePropeties {
 
     private String host;
     private int port;
-
-    public DemoService(String host, int port) {
-        this.host = host;
-        this.port = port;
-    }
-
-    public String sayHello() {
-        return "hello, " + host + " " + port;
-    }
 
     public String getHost() {
         return host;

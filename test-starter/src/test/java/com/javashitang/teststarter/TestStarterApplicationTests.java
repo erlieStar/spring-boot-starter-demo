@@ -1,6 +1,6 @@
-package com.st.teststarter;
+package com.javashitang.teststarter;
 
-import com.st.demoservice.DemoService;
+import com.javashitang.demoservice.DemoService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class TestStarterApplicationTests {
 
     @Autowired
-    DemoService demoService;
+    private DemoService demoService;
 
     @Test
     public void contextLoads() {

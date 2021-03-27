@@ -10,7 +10,7 @@
         <version>2.1.1.RELEASE</version>
     </parent>
 
-    <groupId>com.st</groupId>
+    <groupId>com.javashitang</groupId>
     <artifactId>demo-service-spring-boot-starter</artifactId>
     <version>1.0</version>
 

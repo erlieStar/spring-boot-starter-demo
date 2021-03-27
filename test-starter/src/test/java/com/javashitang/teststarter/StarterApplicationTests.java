@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class TestStarterApplicationTests {
+public class StarterApplicationTests {
 
     @Autowired
     private DemoService demoService;

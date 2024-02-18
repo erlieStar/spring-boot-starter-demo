@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.javashitang</groupId>
-    <artifactId>demo-service-spring-boot-starter</artifactId>
+    <artifactId>tool-spring-boot-starter</artifactId>
     <version>1.0</version>
 
     <properties>

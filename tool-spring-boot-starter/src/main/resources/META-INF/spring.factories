@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.javashitang.demoservice.DemoServiceAutoConfiguration
+com.javashitang.lock.core.LockAspect

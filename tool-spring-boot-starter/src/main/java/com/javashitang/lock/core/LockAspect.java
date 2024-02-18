@@ -86,7 +86,7 @@ public class LockAspect {
                         Object value = field.get(args[i]);
                         keyValue.put(parameterNames[i] + "." + name, String.valueOf(value));
                     } catch (Exception e) {
-
+                        e.printStackTrace();
                     }
                 }
             }
